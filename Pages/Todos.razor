@@ -1,0 +1,18 @@
+<!-- Simple list component (Todo app example) -->
+
+<div>
+<h2>Todos</h2>
+@foreach (var todo in todos)
+{
+    <div>@todo.title</div>
+}
+</div>
+
+@code {
+    public class Todo {
+        public string title { get; set; }
+
+    }
+
+    List<Todo> todos = new List<Todo>() { new Todo { title="clean" }, new Todo { title="shop" } };
+}
