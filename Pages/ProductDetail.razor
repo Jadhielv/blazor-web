@@ -1,5 +1,8 @@
-<h2>@title</h2>
-<div>@description</div>
+<div>
+<span>@title</span>
+<span>@description</span>
+<button class="btn btn-primary" @onclick="@(() => OnClick.InvokeAsync(title))">Click me</button>
+</div>
 
 @code{
     [Parameter]
@@ -7,4 +10,7 @@
     
     [Parameter]
     public string description { get; set; } = "description";
+
+    [Parameter]
+    public EventCallback<string> OnClick { get; set; }
 }
