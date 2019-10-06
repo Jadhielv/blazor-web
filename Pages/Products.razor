@@ -1,0 +1,29 @@
+<h2>Products</h2>
+
+You clicked: @message
+
+@foreach (var item in products)
+{
+    <ProductDetail OnClick="Clicked" title="@item.Title" description="@item.Description" />
+}
+
+@code {
+    string message = "";
+
+    List<Product> products = new List<Product>
+    {
+        new Product(){ Title = "book", Description = "a Book" },
+        new Product(){ Title = "DVD", Description = "a DVD" }
+    };
+
+    void Clicked(string name)
+    {
+        message = name;
+    }
+
+    public class Product 
+    {
+        public string Title { get; set; }
+        public string Description { get; set; }
+    }
+}
