@@ -2,6 +2,9 @@
 <div>@description</div>
 
 @code{
-    string title = "Product detail";
-    string description = "description";
+    [Parameter]
+    public string title { get; set; } = "Product detail";
+    
+    [Parameter]
+    public string description { get; set; } = "description";
 }
