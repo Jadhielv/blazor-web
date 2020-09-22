@@ -23,7 +23,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        request = await Http.GetJsonAsync<PlanetRequest>("https://swapi.co/api/planets");
+        request = await Http.GetJsonAsync<PlanetRequest>("https://swapi.dev/api/planets");
     }
 
     public class PlanetRequest {
