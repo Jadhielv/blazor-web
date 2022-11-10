@@ -44,4 +44,4 @@ dotnet run
 
 ### License
 
-This project uses the following license: [MIT](<https://choosealicense.com/licenses/mit/>)
+This project uses the following license -> [MIT](<https://choosealicense.com/licenses/mit/>)
