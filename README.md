@@ -1,4 +1,4 @@
-# Blazor App in .NET Core 3.0
+# Blazor | Build client web apps with C# | .NET
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Jadhielv/blazor-web/blob/master/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/jadhielv/blazor-web)
@@ -7,6 +7,8 @@
 ## Getting Started
 
 The future of .NET Web Apps : Blazor First Look
+
+Use the power of .NET and C# to build full stack web apps without writing a line of JavaScript.
 
 ### How to Use
 
